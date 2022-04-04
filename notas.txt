@@ -1,0 +1,50 @@
+arreglar el login
+
+//07/03/2022//
+estandarizar la base de datos
+normalizada
+modelo relacional
+
+portada:
+-nombre institucion
+-nombre dela figura profecional
+-sello cole
+-nombre tema
+-autor/es
+-ciudad-pais
+-años
+-supervisor
+//08/03/2022//
+calificacion de lo antes mencionado
+
+//robar//
+cuadro para los modulos
+pie de pagina
+
+
+//mercado chafa// ruc en web
+
+//proyectos//
+/*carro seguidor de lin ea
+detector de humo
+dado
+/*prender un led
+semaforo inteligente
+/*uso de los servo 
+cerradura digital/inteligente
+rf
+/*carrito detector de obstaculos
+/*sensor ultrasonico
+/*carro a control bluethoot
+matriz led de mensajes
+/*radar
+/*ping pong arduino
+lcd 
+
+
+//cosas por hacer//
+sacar el id del ingresado
+guardado de proyectos
+foro
+subida de proyectos
+
