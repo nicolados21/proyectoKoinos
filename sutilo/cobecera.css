@@ -1,0 +1,196 @@
+header {
+    display: flex;
+    border-bottom: 2px solid #0098cb;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 20px;
+    background-color: #008184;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    left: 0;
+    top: 0;
+    right: 0;
+  }
+  .wrapper{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+  }
+  header nav.navv{
+    width: 100%;
+    margin-left: 0px;
+    position: fixed;
+    z-index: 100;
+    background-color: #008184;
+    transition: ease-in-out 0.5s;
+  }
+  header nav section img{
+    float: left;
+    margin-top: -1.5rem;
+    line-height: 9px;
+    margin-left: 150px;
+    background-color: #008184;
+    z-index: 120;
+    padding-right: 35rem;
+  }
+  header nav div.logo a{
+    margin-top: -1rem;
+    margin-left: -3rem;
+    padding-right: -2rem;
+    font-size: 40px;
+    line-height: 50px;
+    float: left;
+    font-weight:initial;
+    background-color: #5dabbd00;
+  }
+  header nav a{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  /*boton*/
+  .boton.uno {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 150px;
+	height: 42px;
+	background: #5dabbd00;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	transition: .3s ease all;
+	border-radius: 50px;
+	position: relative;
+  overflow: hidden;
+  }
+
+.boton.uno span {
+	position: relative;
+	z-index: 4;
+	transition: .3s ease all;
+}
+.boton.uno::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #d3613ed5;
+  position: absolute;
+  z-index: 0;
+  top: -80px;
+  left: 0;
+  transition: .3s ease-in-out all;
+}
+    
+    .boton.uno:hover::after {
+        top: 0;
+    }
+/*boton tre*/
+.boton.cinco span {
+	transition: .4s ease-in-out all;
+	position: relative;
+  left: -80px;
+}
+
+.boton.cinco .icono {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	z-index: 2;
+	left: -40px;
+	transition: .3s ease-in-out all;
+	opacity: 0;
+}
+
+.boton.cinco svg {
+	color: #fff;
+	width: 35px;
+	height: 35px;
+}
+
+.boton.cinco:hover {
+	background: #d3613ed5;
+}
+
+.boton.cinco:hover .icono {
+	left: calc(100% - 50px);
+	opacity: 1;
+}
+
+.boton.cinco:hover span {
+	position: absolute;
+  left: -100px;
+}
+.boton.cinco{
+  margin-top: -10rem;
+  margin-bottom: -0.9rem;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 150px;
+	height: 42px;
+	background: #5dabbd00;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	border: none;
+	cursor: pointer;
+	transition: .3s ease all;
+	border-radius: 50px;
+	position: relative;
+	overflow: hidden;
+}
+.boton.cinco span {
+  padding-left: 6.1rem;
+	position: absolute;
+	z-index: 2;
+	transition: .3s ease all;
+}
+.boton{
+  margin-top: -10rem;
+}
+@media screen and (max-width: 920px){
+    header{
+        line-height: -100px;
+    }
+    header nav{
+        width: 123%;
+        text-align: center;
+        line-height: 10px;
+        margin-top: -40px;
+        font-size: smaller;
+    }
+    header .logo{
+      padding-top: 0rem;
+      padding-left: 10px;
+      font-size: 40px;
+      line-height: 50px;
+      float: left;
+      padding-bottom: 1rem;
+      margin-top: -0.7rem;
+      margin-left: 1.3rem;
+    }
+    header img{
+        margin-top: -10px;
+        width:50px;
+        height:50px;
+        margin-left: 230px;
+        float:left;
+    }
+    header button.boton a{
+        align-content: center;
+        padding-top: 0px;
+    }
+    header nav button span{
+      position: relative;
+    }
+}

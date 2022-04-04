@@ -1,0 +1,19 @@
+body::after{
+    content: 'Estamos conectando contigo...';
+    color: azure;
+    text-align: middle;
+    font-size: 40px;
+    width:100%;
+    height: 100%;
+    position: fixed;
+    top: -100vw;
+    left: 0;
+    background-color: #008184;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all .3s;
+    z-index: 120;
+}
+.loading::after{
+    top: 0;
+}
